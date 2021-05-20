@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,24 @@
 		48BC6065265548E100796D55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BC6064265548E100796D55 /* Preview Assets.xcassets */; };
 		48BC6070265548E100796D55 /* Sample_TV_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC606F265548E100796D55 /* Sample_TV_AppTests.swift */; };
 		48BC607B265548E100796D55 /* Sample_TV_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC607A265548E100796D55 /* Sample_TV_AppUITests.swift */; };
+		48BC608F26554B9800796D55 /* TVListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC608E26554B9800796D55 /* TVListView.swift */; };
+		48BC609426554BA100796D55 /* TVListVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC609326554BA100796D55 /* TVListVIewModel.swift */; };
+		48BC609B26554BC100796D55 /* TVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC609A26554BC100796D55 /* TVShow.swift */; };
+		48BC60A326554BC900796D55 /* TVShowDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC60A226554BC900796D55 /* TVShowDetails.swift */; };
+		48BC60A926554BEA00796D55 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC60A826554BEA00796D55 /* NetworkManager.swift */; };
+		48BC60B7265563D600796D55 /* TVDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC60B6265563D600796D55 /* TVDetailView.swift */; };
+		48BC60BC265563E400796D55 /* TVDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC60BB265563E400796D55 /* TVDetailViewModel.swift */; };
+		48BC60C72655661400796D55 /* TVShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC60C62655661300796D55 /* TVShowCell.swift */; };
+		48BC60CD2655A05600796D55 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC60CC2655A05600796D55 /* Strings.swift */; };
+		48BC60D22655A06200796D55 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC60D12655A06200796D55 /* Colors.swift */; };
+		48BC60D82655A6C600796D55 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 48BC60D72655A6C600796D55 /* Introspect */; };
+		48BC60E12655A8A600796D55 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 48BC60E02655A8A600796D55 /* URLImageStore */; };
+		48BC60E32655A8A600796D55 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 48BC60E22655A8A600796D55 /* URLImage */; };
+		48BC60E82655AF4000796D55 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC60E72655AF4000796D55 /* SearchBar.swift */; };
+		48BC60FB2655B0CE00796D55 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC60FA2655B0CE00796D55 /* Images.swift */; };
+		48BC61032655D7EA00796D55 /* LazyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC61022655D7EA00796D55 /* LazyNavigationView.swift */; };
+		48BC61082655DCDD00796D55 /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC61072655DCDD00796D55 /* Chip.swift */; };
+		48BC610D2655DED900796D55 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC610C2655DED900796D55 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +63,21 @@
 		48BC6076265548E100796D55 /* Sample TV AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample TV AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48BC607A265548E100796D55 /* Sample_TV_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_TV_AppUITests.swift; sourceTree = "<group>"; };
 		48BC607C265548E100796D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48BC608E26554B9800796D55 /* TVListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVListView.swift; sourceTree = "<group>"; };
+		48BC609326554BA100796D55 /* TVListVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVListVIewModel.swift; sourceTree = "<group>"; };
+		48BC609A26554BC100796D55 /* TVShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShow.swift; sourceTree = "<group>"; };
+		48BC60A226554BC900796D55 /* TVShowDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetails.swift; sourceTree = "<group>"; };
+		48BC60A826554BEA00796D55 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		48BC60B6265563D600796D55 /* TVDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDetailView.swift; sourceTree = "<group>"; };
+		48BC60BB265563E400796D55 /* TVDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDetailViewModel.swift; sourceTree = "<group>"; };
+		48BC60C62655661300796D55 /* TVShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowCell.swift; sourceTree = "<group>"; };
+		48BC60CC2655A05600796D55 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		48BC60D12655A06200796D55 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		48BC60E72655AF4000796D55 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		48BC60FA2655B0CE00796D55 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		48BC61022655D7EA00796D55 /* LazyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyNavigationView.swift; sourceTree = "<group>"; };
+		48BC61072655DCDD00796D55 /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
+		48BC610C2655DED900796D55 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BC60E12655A8A600796D55 /* URLImageStore in Frameworks */,
+				48BC60E32655A8A600796D55 /* URLImage in Frameworks */,
+				48BC60D82655A6C600796D55 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +131,11 @@
 		48BC605C265548E000796D55 /* Sample TV App */ = {
 			isa = PBXGroup;
 			children = (
+				48BC60CB2655A04900796D55 /* Enums */,
+				48BC60AD2655581800796D55 /* Components */,
+				48BC60A726554BDD00796D55 /* Networking */,
+				48BC609926554BB500796D55 /* Models */,
+				48BC608B26554B7600796D55 /* Screens */,
 				48BC605D265548E000796D55 /* Sample_TV_AppApp.swift */,
 				48BC605F265548E000796D55 /* ContentView.swift */,
 				48BC6061265548E100796D55 /* Assets.xcassets */,
@@ -130,6 +171,80 @@
 			path = "Sample TV AppUITests";
 			sourceTree = "<group>";
 		};
+		48BC608B26554B7600796D55 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				48BC608D26554B8C00796D55 /* TV Details */,
+				48BC608C26554B8400796D55 /* TV List */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		48BC608C26554B8400796D55 /* TV List */ = {
+			isa = PBXGroup;
+			children = (
+				48BC60C52655660A00796D55 /* Components */,
+				48BC608E26554B9800796D55 /* TVListView.swift */,
+				48BC609326554BA100796D55 /* TVListVIewModel.swift */,
+			);
+			path = "TV List";
+			sourceTree = "<group>";
+		};
+		48BC608D26554B8C00796D55 /* TV Details */ = {
+			isa = PBXGroup;
+			children = (
+				48BC60B6265563D600796D55 /* TVDetailView.swift */,
+				48BC60BB265563E400796D55 /* TVDetailViewModel.swift */,
+			);
+			path = "TV Details";
+			sourceTree = "<group>";
+		};
+		48BC609926554BB500796D55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48BC609A26554BC100796D55 /* TVShow.swift */,
+				48BC60A226554BC900796D55 /* TVShowDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48BC60A726554BDD00796D55 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				48BC60A826554BEA00796D55 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		48BC60AD2655581800796D55 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				48BC60E72655AF4000796D55 /* SearchBar.swift */,
+				48BC61022655D7EA00796D55 /* LazyNavigationView.swift */,
+				48BC61072655DCDD00796D55 /* Chip.swift */,
+				48BC610C2655DED900796D55 /* RoundedButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		48BC60C52655660A00796D55 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				48BC60C62655661300796D55 /* TVShowCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		48BC60CB2655A04900796D55 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				48BC60CC2655A05600796D55 /* Strings.swift */,
+				48BC60D12655A06200796D55 /* Colors.swift */,
+				48BC60FA2655B0CE00796D55 /* Images.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +261,11 @@
 			dependencies = (
 			);
 			name = "Sample TV App";
+			packageProductDependencies = (
+				48BC60D72655A6C600796D55 /* Introspect */,
+				48BC60E02655A8A600796D55 /* URLImageStore */,
+				48BC60E22655A8A600796D55 /* URLImage */,
+			);
 			productName = "Sample TV App";
 			productReference = 48BC605A265548E000796D55 /* Sample TV App.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +337,10 @@
 				Base,
 			);
 			mainGroup = 48BC6051265548E000796D55;
+			packageReferences = (
+				48BC60D62655A6C600796D55 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				48BC60DF2655A8A600796D55 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 48BC605B265548E000796D55 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +383,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BC60B7265563D600796D55 /* TVDetailView.swift in Sources */,
+				48BC60E82655AF4000796D55 /* SearchBar.swift in Sources */,
+				48BC60C72655661400796D55 /* TVShowCell.swift in Sources */,
+				48BC60D22655A06200796D55 /* Colors.swift in Sources */,
 				48BC6060265548E000796D55 /* ContentView.swift in Sources */,
+				48BC60A326554BC900796D55 /* TVShowDetails.swift in Sources */,
+				48BC60BC265563E400796D55 /* TVDetailViewModel.swift in Sources */,
+				48BC60FB2655B0CE00796D55 /* Images.swift in Sources */,
 				48BC605E265548E000796D55 /* Sample_TV_AppApp.swift in Sources */,
+				48BC61082655DCDD00796D55 /* Chip.swift in Sources */,
+				48BC60CD2655A05600796D55 /* Strings.swift in Sources */,
+				48BC610D2655DED900796D55 /* RoundedButton.swift in Sources */,
+				48BC60A926554BEA00796D55 /* NetworkManager.swift in Sources */,
+				48BC61032655D7EA00796D55 /* LazyNavigationView.swift in Sources */,
+				48BC609426554BA100796D55 /* TVListVIewModel.swift in Sources */,
+				48BC609B26554BC100796D55 /* TVShow.swift in Sources */,
+				48BC608F26554B9800796D55 /* TVListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +719,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48BC60D62655A6C600796D55 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+		48BC60DF2655A8A600796D55 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48BC60D72655A6C600796D55 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48BC60D62655A6C600796D55 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+		48BC60E02655A8A600796D55 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48BC60DF2655A8A600796D55 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+		48BC60E22655A8A600796D55 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48BC60DF2655A8A600796D55 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48BC6052265548E000796D55 /* Project object */;
 }
